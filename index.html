@@ -1,0 +1,122 @@
+# Correct and save the content again
+complete_html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Kiran Pakkir, MBA">
+    <title>Kiran Pakkir - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kiran Pakkir, MBA</h1>
+        <p>210.803.4662 | <a href="mailto:Kiranpakkir@gmail.com">Kiranpakkir@gmail.com</a> | <a href="https://www.linkedin.com/in/kiran-pakkir" target="_blank">LinkedIn Profile</a></p>
+    </header>
+    <main>
+        <section id="career-summary">
+            <h2>Career Summary</h2>
+            <ul>
+                <li>Executive Technology Leader with 17+ years of experience and proven background in cloud management, product architecture, multi-cloud environments, and data center infrastructure, leading top-performing teams in designing and implementing scalable cloud and data center solutions, ensuring optimal performance and efficiency.</li>
+                <li>Recognized with MBA with a focus on strategy, finance, and management from Kenan-Flagler Business School at the University of North Carolina at Chapel Hill.</li>
+                <li>Instrumental in developing a robust Greenfield cloud environment, laying the foundation for Altria's transformation into a Consumer-Packaged Goods (CPG) company, while managing ~$11M annual budget.</li>
+                <li>Integral in leading organization in AI implementation, becoming one of the 1st within the industry to utilize the innovative technology, designing and launching Altria GPT.</li>
+                <li>Leveraged innovative technology to automate and streamline workflow, transitioning 90% of manual activities to automation, including automating infrastructure deployments using PowerShell that decreased deployment time 60%.</li>
+                <li>Focused on enhancing cloud infrastructure efficiency by designing and implementing scalable solutions, including migrating databases and applications to Azure, reducing infrastructure costs by 30%.</li>
+            </ul>
+        </section>
+        <section id="professional-experience">
+            <h2>Professional Work Experience</h2>
+            <h3>Altria Client Services – Richmond, VA</h3>
+            <p><strong>Enterprise Architect & Sr. Manager in Technology</strong> (2020 – Current)</p>
+            <ul>
+                <li>Serve as an integral executive leader, directing a team in daily operations, designing architecture, managing the data center, implementing projects, optimizing operations, and reducing costs to drive growth, while developing a Greenfield cloud environment that laid the foundation for Altria’s transformation into a Consumer-Packaged Goods (CPG) company with an annual budget of ~$11M.</li>
+                <li>Led migration of 500+ critical applications from on-prem to Azure, improving resource utilization and driving 30% reduction in data center expenses.</li>
+                <li>Utilized containerization and migration to PaaS SQL-managed instances to modernize 50+ legacy applications, resulting in a 20% improvement in system uptime and a significant reduction in maintenance overhead.</li>
+                <li>Directed the team in replacing and consolidating all backup solutions into 1 unified system, optimizing data resilience and security while generating significant organizational cost savings.</li>
+                <li>Launched multi-cloud strategy across Azure, AWS, and GCP, elevating disaster recovery capabilities to 99.99% SLA for high availability and business continuity while managing $10M+ in cloud expenditures to optimize cost efficiency and align with strategic cloud transformation initiatives.</li>
+                <li>Secured Terraform as a standard Infrastructure as Code (IaC) tool, streamlining infrastructure deployments and delivering a 70% reduction in manual configuration errors.</li>
+                <li>Built and deployed Kubernetes platform supporting 100+ applications that increased scalability 50% and improved resource management efficiency.</li>
+                <li>Integral in leading organization in AI implementation, becoming one of the 1st within the industry to utilize the innovative technology, designing and launching Altria GPT.</li>
+                <li>Perform as a member of the Architecture Board for the previous 2 years, meeting regularly with the VPs to discuss new projects.</li>
+            </ul>
+            <h3>Diversey Inc – Charlotte, NC</h3>
+            <p><strong>Sr Azure Cloud Engineer</strong> (2018 – 2020)</p>
+            <ul>
+                <li>Hired as contractor and transitioned to FTE after 6 months, providing strategic direction to manage and optimize 600+ IaaS servers in Azure.</li>
+                <li>Drove 20% reduction in cloud costs via resource optimization and effective monitoring with $5M in projected savings over 3 years.</li>
+                <li>Played a pivotal role in migrating the entire IT infrastructure, including SAP and 300+ complex systems, out of the existing data center within six months following a private equity acquisition, ensuring seamless migration with zero unplanned downtime.</li>
+                <li>Managed a cloud landscape with an annual budget exceeding $5 million, implementing right-sizing strategies and Azure reservations that resulted in a more than 50% reduction in cloud infrastructure costs.</li>
+                <li>Developed and implemented a disaster recovery plan for critical workloads, achieving 99.99% uptime and mitigating business risk with high availability and failover capabilities.</li>
+            </ul>
+            <h3>USAA Bank – San Antonio, TX</h3>
+            <p><strong>Sr Azure Cloud Consultant</strong> (2016 – 2018)</p>
+            <ul>
+                <li>Led the migration of on-premise SQL Server 2012 to Azure SQL Database (PaaS), securing a 35% increase in database performance.</li>
+                <li>Leveraged innovative technology to automate and streamline workflow, transitioning 90% of manual activities to automation, including automating infrastructure deployments using PowerShell that decreased deployment time by 60%.</li>
+                <li>Utilized Azure Data Factory to migrate data from the on-premises SQL Server to Azure Data Lake Store and established pipelines to transition data to the cloud.</li>
+                <li>Constructed a big data cluster with HD insights and created a mobile and web application in Azure while maintaining traffic managers, enabling a 3X increase in data processing speeds faster than the legacy systems.</li>
+                <li>Oversaw Identity Access management of Azure Subscriptions, Azure AD, and Azure AD Application, utilizing Ansible and written playbooks for auto-shutdown and installing patches.</li>
+            </ul>
+            <h3>Cooper Tires – Findlay, OH</h3>
+            <p><strong>Azure Cloud Architect</strong> (2016)</p>
+            <ul>
+                <li>Focused on enhancing cloud infrastructure efficiency by designing and implementing scalable solutions, including migrating databases and applications to Azure, reducing infrastructure costs by 30%.</li>
+                <li>Configured and managed App Service Plans scaling while leading the migration of on-premises databases and applications to Azure.</li>
+                <li>Facilitated comprehensive reviews of client existing infrastructures, focusing on identifying areas for improvement and cost reduction opportunities.</li>
+                <li>Developed and launched secure Azure Virtual Networks (VNets) with subnets, network settings, DHCP blocks, DNS settings, and routing.</li>
+            </ul>
+            <h3>IBM – Herndon, VA</h3>
+            <p><strong>Cloud Engineer</strong> (2010 – 2016)</p>
+            <ul>
+                <li>Hired into the organization as an SAP Consultant and was recognized for continuous top performance, earning promotions up to Implementation and Design, Application Support, and, ultimately, Cloud engineering.</li>
+                <li>Integral team player designing and implementing Azure solutions for various clients, securing 99.9% success in project delivery.</li>
+                <li>Developed Network Security Groups (NSGs) to manage inbound and outbound access and set up Virtual Appliances to meet security requirements.</li>
+            </ul>
+        </section>
+        <section id="additional-experience">
+            <h2>Additional Experience</h2>
+            <ul>
+                <li>Ciber / Phillips (Bangalore, India) – IT Consultant</li>
+                <li>Boart Longyear – Information Technology Consultant</li>
+                <li>Aflac Insurance – Software Engineer</li>
+            </ul>
+        </section>
+        <section id="education-certifications">
+            <h2>Education & Certifications</h2>
+            <ul>
+                <li>The University of North Carolina, Kenan-Flagler Business School – MBA, Strategy, Finance, and Management</li>
+                <li>Federation University, Australia – Master of Science, Information Technology</li>
+                <li>JNT University, Hyderabad, India – Bachelor of Science, Information Technology</li>
+                <li>Microsoft Certified: Azure Solutions Architect Expert | AWS Certified Cloud Practitioner | Google Cloud Digital Leader Certification</li>
+                <li>Microsoft Certified: Azure Data Fundamentals | Microsoft Certified: Azure Security Engineer Associate</li>
+                <li>Microsoft Certified: Designing & Implementing a Microsoft Azure AI Solution</li>
+            </ul>
+        </section>
+        <section id="technology-stack">
+            <h2>Technology Stack</h2>
+            <ul>
+                <li><strong>Cloud Platforms:</strong> Microsoft Azure, AWS, Google Cloud</li>
+                <li><strong>Operating Systems:</strong> Windows, Linux, Mac OS</li>
+                <li><strong>Databases:</strong> Oracle, SQL Server, SAP HANA, DB2, Teradata, Cosmos DB, PostgreSQL, Dynamo DB</li>
+                <li><strong>Networking:</strong> Virtual Networks, Security Groups, Express Route, S2S VPN, Palo Alto Firewalls</li>
+                <li><strong>Virtualization:</strong> VMware ESX/ESXi, vCenter, Microsoft Hyper-V</li>
+                <li><strong>Scripting:</strong> .NET, Python, Bash, Microsoft Windows PowerShell, ARM (JSON) Templates, PowerShell DSC</li>
+                <li><strong>Tools:</strong> Ansible, Terraform, ServiceNow, Visual Studio, SharePoint, DevOps</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Kiran Pakkir</p>
+    </footer>
+</body>
+</html>
+"""
+
+# Save the content to a file
+final_file_path = "/mnt/data/Kiran_Pakkir_Resume_Complete.html"
+with open(final_file_path, "w") as file:
+    file.write(complete_html_content)
+
+final_file_path
